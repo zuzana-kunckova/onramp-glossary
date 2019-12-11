@@ -1,6 +1,10 @@
 ## Glossary
 
-An answer to 'What is ...'
+This document is not a collection of tutorials about how to do something in [Laravel](https://laravel.com/), it is a collection of explanations of what various terms frequently used in Laravel development mean.
+
+I aim to answer the question: 'What is ...' ? and I hope to do it in a way that new developers or non-native English speakers find easy to understand.
+
+I will be adding more terms in as I work through the list.
 
 - Homestead
 - Valet
