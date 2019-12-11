@@ -1,177 +1,177 @@
 ## Glossary ToDo
 
-[ ]  Valet
+[ ] - Valet
 
-[ ]  Homestead
+[ ] - Homestead
 
-[ ]  Request Lifecycle
+[ ] - Request Lifecycle
 
-[ ]  Service Provider
+[ ] - Service Provider
 
-[ ]  Service Container
+[ ] - Service Container
 
-[ ]  Facade
+[ ] - Facade
 
-[ ]  Dependency Injection
+[ ] - Dependency Injection
 
-[ ]  Helper function
+[ ] - Helper function
 
-[ ]  Contract
+[ ] - Contract
 
-[ ]  Routing
+[ ] - Routing
 
-[ ]  Route Model Binding
+[ ] - Route Model Binding
 
-[ ]  Route Group
+[ ] - Route Group
 
-[ ]  Named Route
+[ ] - Named Route
 
-[ ]  Route Caching
+[ ] - Route Caching
 
-[ ]  Middleware
+[ ] - Middleware
 
-[ ]  CSRF Protection
+[ ] - CSRF Protection
 
-[ ]  Controller
+[ ] - Controller
 
-[ ]  Resource Controller
+[ ] - Resource Controller
 
-[ ]  HTTP Request
+[ ] - HTTP Request
 
-[ ]  HTTP Response
+[ ] - HTTP Response
 
-[ ]  HTTP Session
+[ ] - HTTP Session
 
-[ ]  HTTP Exception
+[ ] - HTTP Exception
 
-[ ]  View
+[ ] - View
 
-[ ]  URL Generation
+[ ] - URL Generation
 
-[ ]  Validation
+[ ] - Validation
 
-[ ]  Error handling
+[ ] - Error handling
 
-[ ]  Logging
+[ ] - Logging
 
-[ ]  Log Stack
+[ ] - Log Stack
 
-[ ]  Blade
+[ ] - Blade
 
-[ ]  Localization
+[ ] - Localization
 
-[ ]  VueJS
+[ ] - VueJS
 
-[ ]  ReactJS
+[ ] - ReactJS
 
-[ ]  Laravel Mix
+[ ] - Laravel Mix
 
-[ ]  Authentication
+[ ] - Authentication
 
-[ ]  Authorization
+[ ] - Authorization
 
-[ ]  Gate
+[ ] - Gate
 
-[ ]  Policy
+[ ] - Policy
 
-[ ]  Encryption
+[ ] - Encryption
 
-[ ]  Hashing
+[ ] - Hashing
 
-[ ]  Artisan
+[ ] - Artisan
 
-[ ]  Broadcasting
+[ ] - Broadcasting
 
-[ ]  Cache
+[ ] - Cache
 
-[ ]  Collection
+[ ] - Collection
 
-[ ]  Lazy Collection
+[ ] - Lazy Collection
 
-[ ]  Event
+[ ] - Event
 
-[ ]  Queues
+[ ] - Queues
 
-[ ]  Task scheduling
+[ ] - Task scheduling
 
-[ ]  Database
+[ ] - Database
 
-[ ]  SQL
+[ ] - SQL
 
-[ ]  Query builder
+[ ] - Query builder
 
-[ ]  PDO
+[ ] - PDO
 
-[ ]  Pagination
+[ ] - Pagination
 
-[ ]  Migration
+[ ] - Migration
 
-[ ]  Seeding
+[ ] - Seeding
 
-[ ]  Factory
+[ ] - Factory
 
-[ ]  Redis
+[ ] - Redis
 
-[ ]  ORM
+[ ] - ORM
 
-[ ]  Eloquent
+[ ] - Eloquent
 
-[ ]  Observer
+[ ] - Observer
 
-[ ]  Relationships
+[ ] - Relationships
 
-[ ]  Eager loading
+[ ] - Eager loading
 
-[ ]  Mutator
+[ ] - Mutator
 
-[ ]  Accessor
+[ ] - Accessor
 
-[ ]  Attribute Casting
+[ ] - Attribute Casting
 
-[ ]  Serialization
+[ ] - Serialization
 
-[ ]  Testing
+[ ] - Testing
 
-[ ]  TDD
+[ ] - TDD
 
-[ ]  PHPUnit
+[ ] - PHPUnit
 
-[ ]  HTTP tests
+[ ] - HTTP tests
 
-[ ]  Console tests
+[ ] - Console tests
 
-[ ]  Browser tests
+[ ] - Browser tests
 
-[ ]  Mocking
+[ ] - Mocking
 
-[ ]  Cashier
+[ ] - Cashier
 
-[ ]  Dusk
+[ ] - Dusk
 
-[ ]  Envoy
+[ ] - Envoy
 
-[ ]  Horizon
+[ ] - Horizon
 
-[ ]  Passport
+[ ] - Passport
 
-[ ]  Scout
+[ ] - Scout
 
-[ ]  Socialite
+[ ] - Socialite
 
-[ ]  Telescope
+[ ] - Telescope
 
-[ ]  Vapor
+[ ] - Vapor
 
-[ ]  Forge
+[ ] - Forge
 
-[ ]  Envoyer
+[ ] - Envoyer
 
-[ ]  Nova
+[ ] - Nova
 
-[ ]  Echo
+[ ] - Echo
 
-[ ]  Lumen
+[ ] - Lumen
 
-[ ]  Spark
+[ ] - Spark
 
-[ ]  Tinker
+[ ] - Tinker
