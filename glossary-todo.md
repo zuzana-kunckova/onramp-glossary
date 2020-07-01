@@ -1,20 +1,22 @@
 ## Glossary ToDo
 
-[ ] - Valet
+[x] - Valet
 
-[ ] - Homestead
+[x] - Vagrant
 
-[ ] - Request Lifecycle
+[x] - Homestead
 
-[ ] - Service Provider
+[x] - Request Lifecycle
 
-[ ] - Service Container
+[x] - Service Provider
+
+[x] - Service Container
 
 [ ] - Facade
 
 [ ] - Dependency Injection
 
-[ ] - Helper function
+[x] - Helper methods
 
 [ ] - Contract
 
@@ -30,7 +32,7 @@
 
 [ ] - Middleware
 
-[ ] - CSRF Protection
+[x] - CSRF Protection
 
 [ ] - Controller
 
@@ -56,11 +58,11 @@
 
 [ ] - Log Stack
 
-[ ] - Blade
+[x] - Blade
 
-[ ] - Localization
+[x] - Localization
 
-[ ] - VueJS
+[x] - VueJS
 
 [ ] - ReactJS
 

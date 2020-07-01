@@ -6,14 +6,22 @@ I aim to answer the question: 'What is ...' ? and I hope to do it in a way that 
 
 I will be adding more terms in as I work through the list.
 
+- Vagrant
+    - Vagrant is a software used to manage and standartize development environments. It will isolate dependencies and their configuration within a self-contained box. You can replicate someone else's environment configuration by using their Vagrantfile. 
 - Homestead
+    - Laravel Homestead is an official, pre-set Vagrant box. It makes it very simple to serve Laravel applications. It comes with everything you could possibly need to develop your Laravel application: PHP, Ngnix, MySQL, PostgreSQL, Redis, Memcached, Node, and others. And if something goes wrong, you can destroy your Homestead in minutes and start over!
 - Valet
+    - Valet is a Laravel environment for Mac minimalists. It offers an easy and convenient way to run Laravel projects locally. It requires manual installation of `php` and `mysql`, but only a minimal configuration. Once installed, Valet can be parked in a directory of your choice and all projects in this directory will be served by Valet. You can use Valet to serve other projects too, including WordPress, Statamic and many others.
 - Request Lifecycle
+    - The request lifecycle describes what happens as a request (whether via HTTP or via the console) comes into the Laravel application and generates a response, which is returned back to the user. Every user request enters your Laravel application via the `public/index.php` file. This file loads Composer's `autoload.php`, importing packages and any other PHP files necessary, without having to call `include()` or `require()` manually. The `index.php` file also bootstraps an instance of the Laravel framework and generates an instance of a Request object that represents the incoming user request. This incoming request object is sent through the Laravel's HTTP kernel or console kernel, depending on the type of the request. This kernel is the heart of a Laravel application; all of the application's middlewares are registered there. The kernel is responsible for taking the user request, bootstrapping the full application, loading configuration files and environment variables, handling exceptions, registering facades, and registering all of the application's service providers. Once it finishes its work, the kernel passes the request to the router for dispatching. The router dispatches the request to a particular route or controller and runs it through any required middleware, such as the `auth` middleware. Finally, after the route or controller generates a response, the response is is sent back to the user (via HTTP or the console output).
 - Service Provider
+    - Service providers are the heart of every Laravel application. It is where all the relevant code bootstraps itself, where all bindings, event listeners, middleware, configurations, databases, routes an validations are registered. Service providers run at the beginning when the app is bootstrapping when Laravel goes through all service providers registered in `app/config/app.php`. Every new Laravel application already has a list of providers that run with every request, but we can create our own either manually or by using `php artisan tinker` and running `php artisan make:provider CustomProvider` where `CustomProvider` is the name of our provider.
 - Service Container
+    - Laravel's service container, also known as the Inversion Of Control (IOC) container, Application container or Dependency Injection (DI) container, manages class dependencies and performs dependency injections. 
 - Facade
 - Dependency Injection
-- Helper function
+- Helper methods
+    - Laravel provides a large number of helper methods that make some common tasks easier to perform. The list includes methods for working with strings, arrays, objects, URLs and other miscellaneous methods. For example the helper method `Str::studly()` converts a given string to the StudlyCase. 
 - Contract
 - Routing
 - Route Model Binding
@@ -22,8 +30,10 @@ I will be adding more terms in as I work through the list.
 - Route Caching
 - Middleware
 - CSRF Protection
+    - To protect your application from cross-site request forgery, Laravel generates a CSRF token to verify the authenticated user. Simply add `@csrf` inside your `<form>` and Laravel will take care of the rest. 
 - Controller
 - Resource Controller
+- Single action controller
 - HTTP Request
 - HTTP Response
 - HTTP Session
@@ -35,8 +45,11 @@ I will be adding more terms in as I work through the list.
 - Logging
 - Log Stack
 - Blade
+    - Blade is a templating engine provided with Laravel. While we could use plain `php` inside `html` files, the markup up would quickly become messy and hard to read. With Blade we can still loop through data in our views using `@for`, `@foreach`, `@forelse` or `@while`, echo data by using the moustache syntax `{{}}` or display data conditionaly by using clear syntax such as `@if`, `@elseif`, `@else` and `@unless`. Blade offers many more directives that make Blade a very powerful, yet easy to understand, templating language.
 - Localization
+    - Localization is a way to translate a website or web app to different languages, including local currencies and units of measurement. Laravel provides an easy way to retrieve strings in various languages by either using the `__` helper function or the `@lang` Blade directive. Laravel also supports pluralization since different languages have different pluralization rules.
 - VueJS
+    - VueJS is a progressive frontend JavaScript framework for creating user interfaces, the `view` layer of the application. It's ease of use and a small learning curve mean that Vue is a popular choice when choosing a frontend framework, so much so that Laravel provides an easy way to install and setup Vue inside Laravel app by running `php artisan ui vue` or `php artisan ui vue --auth`.
 - ReactJS
 - Laravel Mix
 - Authentication
