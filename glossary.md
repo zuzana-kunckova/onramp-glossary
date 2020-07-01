@@ -18,19 +18,25 @@ I will be adding more terms in as I work through the list.
     - Service providers are the heart of every Laravel application. It is where all the relevant code bootstraps itself, where all bindings, event listeners, middleware, configurations, databases, routes an validations are registered. Service providers run at the beginning when the app is bootstrapping when Laravel goes through all service providers registered in `app/config/app.php`. Every new Laravel application already has a list of providers that run with every request, but we can create our own either manually or by using `php artisan tinker` and running `php artisan make:provider CustomProvider` where `CustomProvider` is the name of our provider.
 - Service Container
     - Laravel's service container, also known as the Inversion Of Control (IOC) container, Application container or Dependency Injection (DI) container, manages class dependencies and performs dependency injections. 
-- Facade
-- Dependency Injection
 - Helper methods
     - Laravel provides a large number of helper methods that make some common tasks easier to perform. The list includes methods for working with strings, arrays, objects, URLs and other miscellaneous methods. For example the helper method `Str::studly()` converts a given string to the StudlyCase. 
+ - CSRF Protection
+    - To protect your application from cross-site request forgery, Laravel generates a CSRF token to verify the authenticated user. Simply add `@csrf` inside your `<form>` and Laravel will take care of the rest. 
+- Blade
+    - Blade is a templating engine provided with Laravel. While we could use plain `php` inside `html` files, the markup up would quickly become messy and hard to read. With Blade we can still loop through data in our views using `@for`, `@foreach`, `@forelse` or `@while`, echo data by using the moustache syntax `{{}}` or display data conditionaly by using clear syntax such as `@if`, `@elseif`, `@else` and `@unless`. Blade offers many more directives that make Blade a very powerful, yet easy to understand, templating language.
+- Localization
+    - Localization is a way to translate a website or web app to different languages, including local currencies and units of measurement. Laravel provides an easy way to retrieve strings in various languages by either using the `__` helper function or the `@lang` Blade directive. Laravel also supports pluralization for languages that have different pluralization rules.
+- VueJS
+    - VueJS is a progressive frontend JavaScript framework for creating user interfaces, the `view` layer of the application. It's ease of use and a small learning curve mean that Vue is a popular choice when choosing a frontend framework, so much so that Laravel provides an easy way to install and setup Vue inside Laravel app by running `php artisan ui vue` or `php artisan ui vue --auth`.
 - Contract
+- Facade
+- Dependency Injection
 - Routing
 - Route Model Binding
 - Route Group
 - Named Route
 - Route Caching
 - Middleware
-- CSRF Protection
-    - To protect your application from cross-site request forgery, Laravel generates a CSRF token to verify the authenticated user. Simply add `@csrf` inside your `<form>` and Laravel will take care of the rest. 
 - Controller
 - Resource Controller
 - Single action controller
@@ -44,12 +50,6 @@ I will be adding more terms in as I work through the list.
 - Error handling
 - Logging
 - Log Stack
-- Blade
-    - Blade is a templating engine provided with Laravel. While we could use plain `php` inside `html` files, the markup up would quickly become messy and hard to read. With Blade we can still loop through data in our views using `@for`, `@foreach`, `@forelse` or `@while`, echo data by using the moustache syntax `{{}}` or display data conditionaly by using clear syntax such as `@if`, `@elseif`, `@else` and `@unless`. Blade offers many more directives that make Blade a very powerful, yet easy to understand, templating language.
-- Localization
-    - Localization is a way to translate a website or web app to different languages, including local currencies and units of measurement. Laravel provides an easy way to retrieve strings in various languages by either using the `__` helper function or the `@lang` Blade directive. Laravel also supports pluralization since different languages have different pluralization rules.
-- VueJS
-    - VueJS is a progressive frontend JavaScript framework for creating user interfaces, the `view` layer of the application. It's ease of use and a small learning curve mean that Vue is a popular choice when choosing a frontend framework, so much so that Laravel provides an easy way to install and setup Vue inside Laravel app by running `php artisan ui vue` or `php artisan ui vue --auth`.
 - ReactJS
 - Laravel Mix
 - Authentication
@@ -92,16 +92,23 @@ I will be adding more terms in as I work through the list.
 - Browser tests
 - Mocking
 - Cashier
+    - Laravel Cashier is a package that provides an easy to use and configurable interface to various billing services, such as Stripe, Paddle or Mollie.
 - Dusk
+    - Laravel Dusk is a browser automation and API testing package.
 - Envoy
 - Horizon
 - Passport
+    - Laravel Passport is a package to authenticate APIs.
 - Scout
+    -
 - Socialite
+    - Laravel Socialite is a package that makes it easy to use OAuth in a Laravel application.
 - Telescope
+    - Laravel Telescope is a debugging package that allows to debug and monitor various aspects of the application.
 - Vapor
+    - Laravel Vapor is an auto-scaling, serverless deployment platform developed specifically for Laravel, powered by AWS Lambda
 - Forge
-- Envoyer
+    - Laravel Forge is a server provisioning and management tool for Laravel applications. 
 - Nova
 - Echo
 - Lumen
