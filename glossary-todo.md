@@ -112,7 +112,7 @@
 
 [ ] - Factory
 
-[ ] - Redis
+[x] - Redis
 
 [ ] - ORM
 
@@ -146,34 +146,34 @@
 
 [ ] - Mocking
 
-[ ] - Cashier
+[x] - Cashier
 
-[ ] - Dusk
+[x] - Dusk
 
-[ ] - Envoy
+[x] - Envoy
 
-[ ] - Horizon
+[x] - Horizon
 
-[ ] - Passport
+[x] - Passport
 
-[ ] - Scout
+[x] - Scout
 
-[ ] - Socialite
+[x] - Socialite
 
-[ ] - Telescope
+[x] - Telescope
 
-[ ] - Vapor
+[x] - Vapor
 
-[ ] - Forge
+[x] - Forge
 
-[ ] - Envoyer
+[x] - Envoyer
 
-[ ] - Nova
+[x] - Nova
 
-[ ] - Echo
+[x] - Echo
 
-[ ] - Lumen
+[x] - Lumen
 
-[ ] - Spark
+[x] - Spark
 
-[ ] - Tinker
+[x] - Tinker
